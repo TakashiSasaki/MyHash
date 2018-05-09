@@ -1,0 +1,26 @@
+{
+  "name": "mysha1",
+  "version": "0.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TakashiSasaki/MySha1.git"
+  },
+  "keywords": [
+    "sha1"
+  ],
+  "author": "Takashi SASAKI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TakashiSasaki/MySha1/issues",
+    "email": "takashi316@gmail.com"
+  },
+  "homepage": "https://github.com/TakashiSasaki/MySha1#readme",
+  "dependencies": {
+    "myassert": "latest"
+  }
+}

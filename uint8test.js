@@ -1,7 +1,10 @@
+"use strict";
+const assert = require("myassert");
 const list  = [-1,0,1,127,128,129];
 
 
 function dump(x){
+  assert.isArray(x);
   var a = [];
   for(var i=0; i<x.length; ++i) {
     a.push(x[i]);
