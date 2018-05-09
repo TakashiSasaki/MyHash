@@ -1,5 +1,5 @@
 "use strict";
-const mysha1 = require("mysha1");
+const myhash = require("myhash");
 const assert = require("myassert");
 const crypto = require("crypto");
 
@@ -10,8 +10,11 @@ const actual = crypto.createHash("sha1").update(input).digest("hex")
 assert.equal(actual, expectedSha1Hex);
 
 
-const utf8 = new mysha1.MySha1(input);
-assert.equal(utf8.getSha1Hex(), expectedSha1Hex);
-assert.equal(utf8.getGitHashHex(), expectedGitHash);
+const stringHash = new myhash.StringHash(input);
+assert.equal(stringHash.getSha1Hex(), expectedSha1Hex);
+assert.equal(stringHash.getGitHashHex(), expectedGitHash);
 
+console.log(myhash.computePairHashBuffer(1,1));
+console.log(myhash.computePairHashBuffer(1,"1"));
+console.log(myhash.computePairHashBuffer("1",1));
 

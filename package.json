@@ -1,5 +1,5 @@
 {
-  "name": "mysha1",
+  "name": "myhash",
   "version": "0.0.0",
   "description": "",
   "main": "test.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TakashiSasaki/MySha1.git"
+    "url": "git+https://github.com/TakashiSasaki/MyHash.git"
   },
   "keywords": [
     "sha1"
@@ -16,10 +16,10 @@
   "author": "Takashi SASAKI",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TakashiSasaki/MySha1/issues",
+    "url": "https://github.com/TakashiSasaki/MyHash/issues",
     "email": "takashi316@gmail.com"
   },
-  "homepage": "https://github.com/TakashiSasaki/MySha1#readme",
+  "homepage": "https://github.com/TakashiSasaki/MyHash#readme",
   "dependencies": {
     "myassert": "latest"
   }
